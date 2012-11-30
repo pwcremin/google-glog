@@ -47,6 +47,10 @@ AC_CHECK_HEADERS(glob.h)
 # For backtrace with gcc.
 AC_CHECK_HEADERS(unwind.h)
 
+AC_CHECK_HEADERS(ext/hash_set)
+AC_CHECK_HEADERS(ext/hash_map)
+AC_CHECK_HEADERS(ext/slist)
+
 AC_CHECK_SIZEOF(void *)
 
 # These are the types I need.  We look for them in either stdint.h,
